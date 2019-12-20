@@ -31,30 +31,35 @@
             <div class="card-body">
                 <form>
                     <div class="form-group">
+<<<<<<< HEAD
                         <p class="search-term">Search Term</p>
                         <input id="search-input" type="searchTerm" class="form-control" placeholder="enter here">
+=======
+                        <p>Search Term</p>
+                        <input type="searchTerm" class="form-control search-term" placeholder="enter here">
+>>>>>>> b05436885d942f1771f0623188ae070e2a2ec4de
                     </div>
                     <div class="form-group">
-                        <p class="num-records">Number of Records to Retrieve:</p>
-                        <select class="form-control" placeholder="1, 5, 10 records">
+                        <p>Number of Records to Retrieve:</p>
+                        <select class="form-control num-records" placeholder="1, 5, 10 records">
                             <option>1</option>
                             <option>5</option>
                             <option>10</option>
                         </select>
                     </div>
                     <div class="form-group">
-                        <p class="start-year">Start Year (Optional):</p>
-                        <input type="startYear" class="form-control" placeholder="YYYY">
+                        <p>Start Year (Optional):</p>
+                        <input type="startYear" class="form-control start-year" placeholder="YYYY">
                     </div>
                     <div class="form-group">
-                        <p class="end-year">Start Year (Optional):</p>
-                        <input type="endYear" class="form-control" placeholder="YYYY">
+                        <p>Start Year (Optional):</p>
+                        <input type="endYear" class="form-control end-year" placeholder="YYYY">
                     </div>
                 </form>
 
 
-                <button id="searchBtn" href="search" class="btn btn-primary">Search</button>
-                <button href="clear" class="btn btn-primary">Clear Results</button>
+                <button id="searchBtn" class="btn btn-primary"><i class="fas fa-search"></i> Search</button>
+                <button id="clear" class="btn btn-primary"><i class="fas fa-trash-alt"></i> Clear Results</button>
             </div>
         </div>
 
