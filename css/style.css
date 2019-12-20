@@ -18,13 +18,17 @@
   }
 
   .card-title{
-    padding: .75rem 1.25rem;
+    padding: .75rem .8rem;
     margin: 0;
   }
 
   .card-body{
-    padding: .75rem 1.25rem;
-    margin: 0rem;
+    padding: 1.5rem 2rem;
+    margin: 0;
+  }
+
+  .description{
+    white-space: pre-wrap;
   }
 
 
@@ -37,9 +41,7 @@
     padding: 10px;
   }
   
-  .description{
-    white-space: pre-wrap;
-  }
+  
   
   .row {
     white-space: pre-wrap;
