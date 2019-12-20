@@ -1,12 +1,10 @@
 //Global Variables
-var searchInput = $("#search-input").val();
+var searchInput = $(".search-term").val();
 var searchBtn = $("#searchBtn");
 //Create an on click event for pulling information from the new york times based on year and end date
 
-console.log(searchInput);
-
 searchBtn.on("click", function(){
-    var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + searchInput + "&api-key=b2295df2-2444-4aa9-a872-0333546237e7"
+    var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + searchInput + "&api-key=tsxPbC2ZGwVxEdkCnj2qNALGO5f0vE0W"
 
     $.ajax({
         url: queryURL,
