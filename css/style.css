@@ -1,0 +1,65 @@
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  .maintitle{
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+  }
+
+  .leo{
+    background-color: darkblue;
+    color: white;
+  } 
+
+  .card{
+    margin-bottom: 2rem;
+  }
+
+  .card-title{
+    padding: .75rem 1.25rem;
+    margin: 0;
+  }
+
+  .card-body{
+    padding: .75rem 1.25rem;
+    margin: 0rem;
+  }
+
+
+  textarea{
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+  }
+  
+  .description{
+    white-space: pre-wrap;
+  }
+  
+  .row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;;
+  }
+
+  
+  
+  .saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    color: white;
+  }
+  
+  .saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
+  
+
