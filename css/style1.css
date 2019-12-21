@@ -1,0 +1,47 @@
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  .maintitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+  }
+
+  .leo{
+    background-color: darkblue;
+    color: white;
+  } 
+
+  .card{
+    margin-bottom: 2rem;
+  }
+
+  .card-title{
+    padding: .75rem .8rem;
+    margin: 0;
+  }
+
+  .card-body{
+    padding: 1.5rem 2rem;
+    margin: 0;
+  }
+
+  .titleName{
+    font-size: 32px;
+    font-weight: 900;
+    padding: 10px;
+    padding-bottom: 0px;
+    background-color: lightskyblue;
+    margin-bottom: 0;
+  }
+
+  .authorName{
+    font-size: 16px;
+    font-style: italic;
+    padding: 10px 60px;
+    background-color: lightskyblue;
+    margin-top: 0;
+  }
+

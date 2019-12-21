@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style1.css" />
+    <title>New York Times Search Practice</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card text-center">
+            <div class="card-header leo">
+                <h1 class="maintitle"><i class="far fa-newspaper" style="padding-right: 1rem"></i> New York Times Search
+                    Practice</h1>
+                <p class="lead">Leo, Andy, Henry Collab</p>
+                <p id="currentDay"></p>
+            </div>
+        </div>
+        <div class="card searchDiv">
+            <div class="card-header leo">
+                <h5 class="card-title">Search Parameters</h5>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <p>Search Term</p>
+                        <input type="text" class="form-control" id="search-term" placeholder="enter here">
+                    </div>
+                    <div class="form-group">
+                        <p>Number of Records to Retrieve:</p>
+                        <select class="form-control" id="num-records" placeholder="1, 5, 10 records">
+                            <option>1</option>
+                            <option>5</option>
+                            <option>10</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <p>Start Year (Optional):</p>
+                        <input type="text" class="form-control" id="start-year" placeholder="YYYY">
+                    </div>
+                    <div class="form-group">
+                        <p>End Year (Optional):</p>
+                        <input type="text" class="form-control" id="end-year" placeholder="YYYY">
+                    </div>
+                </form>
+
+                <button id="searchBtn" class="btn btn-primary"><i class="fas fa-search"></i> Search</button>
+                <button id="clear" class="btn btn-primary"><i class="fas fa-trash-alt"></i> Clear
+                    Results</button>
+            </div>
+        </div>
+
+        <div class="card searchDiv">
+            <div class="card-header leo">
+                <h5 class="card-title">Top Articles</h5>
+            </div>
+            <div class="card-body" id="results">
+
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="js/script1.js"></script>
+</body>
+
+</html>
