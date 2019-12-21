@@ -28,6 +28,10 @@
     margin: 0;
   }
 
+  .btn:hover {
+    color: indigo;
+  }
+
   .titleName{
     font-size: 32px;
     font-weight: 900;
