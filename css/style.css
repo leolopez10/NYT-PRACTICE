@@ -1,0 +1,57 @@
+  body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+  
+  .maintitle{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .leo{
+    background-color: #603A40;
+    color: white;
+  } 
+
+  .card{
+    margin-bottom: 2rem;
+
+  }
+
+  .card-title{
+    padding: .75rem .8rem;
+    margin: 0;
+  }
+
+  .card-body{
+    padding: 1.5rem 2rem;
+    margin: 0;
+  }
+  
+  #searchBtn {
+    background-color: #AF9BB6;
+    color: white;
+    border: none;
+  }
+
+  #clear {
+    background-color: #AF9BB6;
+    color: white;
+    border: none;
+  }
+
+  #searchBtn:hover {
+    background-color: #84596B;
+  }
+
+  #searchBtn:active {
+    background-color: #440D0F;
+  }
+
+  #clear:hover {
+    background-color: #84596B;
+  }
+
+  #clear:active {
+    background-color: #440D0F;
+  }

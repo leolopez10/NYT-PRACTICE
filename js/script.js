@@ -7,7 +7,8 @@ var searchBtn = $("#searchBtn");
 searchBtn.on("click", function () {
     var searchInput = $("#search-term").val();
     console.log(searchInput);
-    var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + $(".search-term").val() + "&api-key=tsxPbC2ZGwVxEdkCnj2qNALGO5f0vE0W";
+    var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" + searchInput + "&api-key=tsxPbC2ZGwVxEdkCnj2qNALGO5f0vE0W";
+
     $.ajax({
         url: queryURL,
         method: "GET"
@@ -31,5 +32,17 @@ searchBtn.on("click", function () {
 
 
 
+    //create a div block named resultDiv
+    // var resultDiv =  $("<div>");
+    //create a variable for artical title
+
+    //create a variable for author of article
 
 
+})
+});
+
+$('#clear').click(function (clear) {
+    $("#results").empty();
+    console.log(clear)
+});
